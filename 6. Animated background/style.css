@@ -1,0 +1,32 @@
+body {
+    animation: anim 8s infinite;
+}
+
+.data-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    width: 40%;
+    text-align: justify;
+    margin: 150px auto;
+}
+
+@keyframes anim {
+    0% {
+        background: #2E5266;
+    }
+    20% {
+        background: #6E8898;
+    }
+    40% {
+        background: #9FB1BC;
+    }
+    60% {
+        background: #D3D0CB;
+    }
+    80% {
+        background: #E2C044;
+    }
+    100% {
+        background: #0CA98A;
+    }
+}
